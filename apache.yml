@@ -1,0 +1,9 @@
+---
+- hosts: webservers 
+  become: True
+  tasks:
+    - name: Deploy a file
+      copy:
+        src: jenkins-test
+        dest: /var/www/html/
+...
