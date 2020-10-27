@@ -5,5 +5,5 @@
     - name: Deploy a file
       copy:
         src: jenkins-test
-        dest: /var/www/html/
+        dest: /var/local/
 ...
